@@ -28,5 +28,31 @@ position: relative;
 
 .lista-menu
 {
-    
+   display: none;
+   position: absolute;
+   top:100%;
+   width: 60vw;
+}
+
+.container_botao:checked ~ .lista-menu{
+display: block;
+}
+
+.lista-menu,
+.lista-menu_item {
+    padding: item;
+    background-color: var(--branco);
+}
+
+.lista-menu_link
+{
+    background-color: var(--azul-dgrade);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-transform: Uppercase;
+}
+
+.container_botao {
+    display: none
 }
